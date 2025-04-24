@@ -2,8 +2,8 @@ services:
   backend:
     build: ./backend/odc
     container_name: jenkins_backend_app
-    networks:
-      - jenkins_network
+    # networks:
+    #   - jenkins_network
     ports:
       - "8000:8000"
     depends_on:
