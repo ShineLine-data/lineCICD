@@ -2,8 +2,8 @@ pipeline {
   agent any
 
   environment {
-    FRONTEND_REPO = 'https://github.com/moncompte/react-app.git'
-    BACKEND_REPO  = 'https://github.com/moncompte/django-api.git'
+    FRONTEND_REPO = 'https://github.com/ShineLine-data/lineFrontend.git'
+    BACKEND_REPO  = 'https://github.com/ShineLine-data/lineBackend.git'
   }
 
   stages {
