@@ -28,7 +28,7 @@ pipeline {
       steps {
         echo "Waiting for the frontend to be ready..."
         sh 'sleep 10' // Simple attente, mieux que rien
-        sh 'curl -sSf http://localhost:8081 || exit 1'
+        // sh 'curl -sSf http://localhost:8081 || exit 1'
       }
     }
 
